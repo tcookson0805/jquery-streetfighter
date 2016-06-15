@@ -47,17 +47,11 @@ $(document).ready(function(){
   
   
   $(document).keydown(function(x){
-    if(x.keyCode == 87 && !click){
+    if(x.keyCode == 87){
       $('.fighter').attr('src', 'images/ryu-cool.gif')
       themesong.pause();
       lebronjames.pause();
       warriors.play()
-    }
-    if(x.keyCode == 87 && click){
-      $('.fighter').attr('src', 'images/ryu-cool.gif')
-      themesong.play();
-      lebronjames.pause();
-      warriors.pause()
     }
     if(x.keyCode == 67){
       $('.fighter').attr('src', 'images/ryu-cool.gif')
