@@ -1,0 +1,93 @@
+@font-face {
+  font-family: crimes_times_six;
+  src: url('../fonts/crimes_times_six/Crimes Times Six.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: white;
+  height: 29.5em;
+  margin-top: 6.5em;
+}
+
+.hero {
+
+}
+
+.fighter {
+  position: absolute;
+  left: 6.0em;
+}
+
+.text-content {
+  width: auto;
+  height: 29.5em;
+  position: absolute;
+  left: 35em;
+  padding-left: 2em;
+}
+
+.sf-logo {
+  z-index: 10;
+  position: absolute;
+  top: 4em;
+  display: none;
+}
+
+.brought-to-you {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2.0em;
+  font-weight: bold;
+  text-align: center;
+  width: 15em;
+  position: absolute;
+  top: 5em;
+  left: 2em;
+  z-index: 50;
+  display: none;
+}
+
+.jquery-logo {
+  z-index: 100;
+  position: absolute;
+  top: 7em;
+  display: none;
+}
+
+.instructions {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
+  padding-top: 2em;
+  font-weight: bold;
+  display: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  padding-top: 5em;
+}
+
+
+.fire {
+  background-color: yellow;
+  position: absolute;
+  top: 16.5em;
+  left: 33em;
+
+}
+
+.hadouken {
+  position: absolute;
+  left: 10px;
+  display: none;
+}

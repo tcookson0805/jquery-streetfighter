@@ -4,10 +4,60 @@
 	<meta charset="UTF-8">
 	<title>Streetfighter</title>
 	<link rel="stylesheet" href="css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	
+  <div class='container'>
+    
+    <div class='hero'>
+      <img class='fighter' src='images/ryu-standing-still.png'>
+      <div class='text-content'>
+        <img class='sf-logo' src='images/sf-logo.png'>
+          
+
+        <div class='brought-to-you'>
+          BROUGHT TO YOU <br>BY...
+        </div>
+        <img class='jquery-logo' src='images/jquery-logo.png'>
+          
+
+        <div class='instructions'>
+          <div class='left'>
+            CLICK ON RYU TO <br>MAKE HIM THROW A <br>HADOUKEN.
+          </div>
+          <div class='right'>
+            PRESS AND HOLD <br>DOWN THE "W" or "C" KEY <br>TO MAKE HIM STRIKE <br>HIS COOL POSE!
+          </div> 
+        </div>
+      </div>
+      
+      <div class='fire'>
+        <img class='hadouken' src='images/hadouken.gif' >
+      </div>
+      
+    </div>
+    
+    <audio id='theme-song'>
+      <source src='sound/ryu-theme-song.mp3' type='audio/mp3'>
+    </audio>
+    
+    <audio id='hadouken-sound'>
+      <source src='sound/hadouken.mp3' type='audio/mp3'>
+    </audio>
+    
+    <audio id='lebronjames'>
+      <source src='sound/lebronjames.mp3' type='audio/mp3'>
+    </audio>
+    
+    <audio id='warriors'>
+      <source src='sound/warriors.mp3' type='audio/mp3'>
+    </audio>
+    
+  </div>
+  
+  
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
